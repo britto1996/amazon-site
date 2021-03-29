@@ -1,0 +1,40 @@
+.container{
+    z-index: 100;
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title,
+.price{
+    margin-left: 5px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.rating{
+    display: flex;
+}
+.products{
+    margin-top: 10px;
+}
+.product__images{
+    margin-top: 10px;
+    max-height: 200px;
+    object-fit: contain;
+}
+.action__section{
+    margin-top: 12px;
+    display: flex;
+    place-items: center;
+}
+.add__to__cart__button{
+    width: 100px;
+    height: 30px;
+    background-color: #f0c14b;
+    border: 2px solid #a88734;
+    border-radius: 2px;
+    cursor: pointer;
+}
